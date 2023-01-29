@@ -1,10 +1,12 @@
-import { Link } from "react-router-dom";
 import { BsGithub, BsLinkedin, BsWhatsapp } from "react-icons/bs";
 
 export default function Navbar(){
     return(
-        <nav className="flex items-center justify-between my-5 px-6 mr-6">
-            <h1 className=" text-2xl font-bold grow">DuhC</h1> 
+        <>
+        <nav className="
+            flex items-center justify-between my-5 px-6 mr-6 fixed top-0 w-[95%]
+        ">
+            <h2 className=" text-2xl font-bold grow">DuhC</h2> 
             
             <div className=" flex justify-between items-center grow max-w-lg">
                 <ul className="flex h-[45%] justify-between text-base font-medium items-center gap-4">
@@ -13,36 +15,36 @@ export default function Navbar(){
                         opacity-70 hover:opacity-100 
 
                         after:transform after:duration-300
-                        after:content-[''] after:bg-slate-50 after:w-0 after:h-[2px] after:block after:bottom-[-2px] after:left-[-1px] after:relative hover:after:w-[110%]
+                        after:content-[''] after:bg-slate-50 after:w-0 after:h-[2px] after:block after:bottom-[-2px] after:left-[-2px] after:relative hover:after:w-[105%]
                     ">
-                        <Link to="/">Home</Link>
+                        <a href="/">Home</a>
                     </li>
                     <li className="
                         transition opacity duration-300
                         opacity-70 hover:opacity-100 
                         
                         after:transform after:duration-300
-                        after:content-[''] after:bg-slate-50 after:w-0 after:h-[2px] after:block after:bottom-[-2px] after:left-[-1px] after:relative hover:after:w-[110%]
+                        after:content-[''] after:bg-slate-50 after:w-0 after:h-[2px] after:block after:bottom-[-2px] after:left-[-2px] after:relative hover:after:w-[105%]
                     ">
-                        <Link to="/">Tecnologias</Link>
+                        <a href="/">Sobre Mim</a>
                     </li>
                     <li className="
                         transition opacity duration-300
                         opacity-70 hover:opacity-100 
                         
                         after:transform after:duration-300
-                        after:content-[''] after:bg-slate-50 after:w-0 after:h-[2px] after:block after:bottom-[-2px] after:left-[-1px] after:relative hover:after:w-[110%]
+                        after:content-[''] after:bg-slate-50 after:w-0 after:h-[2px] after:block after:bottom-[-2px] after:left-[-2px] after:relative hover:after:w-[105%]
                     ">
-                        <Link to="/">Sobre</Link>
+                        <a href="/">Tecnologias</a>
                     </li>
                     <li className="
                         transition opacity duration-300
                         opacity-70 hover:opacity-100 
                         
                         after:transform after:duration-300
-                        after:content-[''] after:bg-slate-50 after:w-0 after:h-[2px] after:block after:bottom-[-2px] after:left-[-1px] after:relative hover:after:w-[110%]
+                        after:content-[''] after:bg-slate-50 after:w-0 after:h-[2px] after:block after:bottom-[-2px] after:left-[-2px] after:relative hover:after:w-[105%]
                     ">
-                        <Link to="/">Contato</Link>
+                        <a href="/">Contato</a>
                     </li>
                 </ul>
 
@@ -62,5 +64,6 @@ export default function Navbar(){
                 </ul>
             </div>
         </nav>
+        </>
     )
 }
