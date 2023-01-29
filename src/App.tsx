@@ -10,7 +10,7 @@ export default function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="">
+    <div className="text-slate-50 w-[90%] m-auto ">
       <BrowserRouter>
         <Navbar/>
 
