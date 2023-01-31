@@ -4,7 +4,9 @@ export default function Navbar(){
     return(
         <>
         <nav className="
-            flex items-center justify-between my-5 px-6 mr-6 fixed top-0 w-[95%]
+            flex items-center justify-between p-6 
+            fixed top-0 left-0 w-full z-[10] 
+            bg-gradient-to-b from-[#000000] via-[#000000c4] to-transparent
         ">
             <h2 className=" text-2xl font-bold grow">DuhC</h2> 
             
