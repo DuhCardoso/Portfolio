@@ -14,7 +14,10 @@ export default function App() {
 
         <main>
           <Home/>
+          <Aboult/>
         </main>
+
+        <textarea className="text-black w-[80%] h-30" />
     </div>
   )
 }
