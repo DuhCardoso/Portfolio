@@ -19,6 +19,7 @@ type reposInfoType={
 
 export default function ProjectsCards({reposSrc, srcImg, text, techs}:projectsLinkTypes){
 
+
     const [reposInfo, setReposInfo] = useState<reposInfoType>({} as reposInfoType)
 
     useEffect(() => {
