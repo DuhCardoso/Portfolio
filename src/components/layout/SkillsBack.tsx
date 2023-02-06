@@ -6,9 +6,9 @@ export default function SkillsBack(){
         <div id="FrontEnd" className="
             text-center w-[80%] m-auto rounded-3xl p-8
             border-[1px] border-blue-1000 bg-blue-1000
-            transition duration-300
+            transition duration-300 min-h-[450px]
             hover:bg-transparent
-            lg:w-[500px] min-h-[450px]
+            lg:w-[500px] lg:h-[100%]
         ">
             <h3 className="
                 mb-12 font-bold text-xl text-sky-400

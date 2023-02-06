@@ -16,7 +16,7 @@ export default function Skills(){
             
 
             <div className="
-                grid grid-cols-1 lg:grid-cols-2 gap-8
+                grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch
             ">
                 <SkillsFront />
                 <SkillsBack />
