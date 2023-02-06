@@ -6,7 +6,7 @@ type techTagTypes={
 export default function ProjectsTechTag({text, Key}:techTagTypes){
     return(
         <li key={Key} className="
-            bg-sky-500 w-max px-1 text-sm font-semibold rounded-md 
+            bg-sky-500 w-max px-[.375rem] py-[.125rem] text-sm font-bold rounded-lg 
         ">
             {text}
         </li>

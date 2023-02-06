@@ -25,7 +25,7 @@ export default function Projects(){
                     srcImg="/CardProduct.png" 
                     techs={["React.js", "TailwindCSS"]}
                     text="
-                        O card de um sofá, que pode ser visto de todos os seus ângulos. Feito com Vite e a dependência Tailwindcss para a estilização da aplicação..
+                        O card de um sofá, que pode ser visto de todos os seus ângulos. Feito com Vite e a dependência Tailwindcss para a estilização da aplicação.
                     "
                 />
                 <ProjectsCards 
@@ -65,7 +65,7 @@ export default function Projects(){
                     srcImg="/LeitorDeDistino.png" 
                     techs={["CSS", "HTML", "JavaScript"]}
                     text="
-                        Faça uma pergunta e descubro o seu destino! Gerada de um array de frases e passado por meio da DOM. 
+                        Faça uma pergunta e descubra o seu destino! Gerada de um array de frases e passado por meio da DOM. 
                     "
                 />
                 <ProjectsCards 

@@ -36,58 +36,61 @@ export default function ProjectsCards({reposSrc, srcImg, text, techs}:projectsLi
         },[])
     
     return(
+        
+        <span className="
+        bg-bgcolor-dark rounded-xl
+            ">
         <div className="
-            py-8 px-4 w-[280px] min-h-[450px] rounded-xl justify-self-center
-            
-            border-[1px] border-bgcolor-dark bg-bgcolor-dark
-                  
+            py-8 px-4 w-[280px] min-h-[450px] 
+
+            opacity-70 hover:opacity-100
+            transition-all duration-300 
         ">
-            <h2 className="
-                text-lg text-center font-bold mb-8 text-blue-50 
-                
-            ">
-                {reposInfo.name}
-            </h2>
-
-            <img src={`${srcImg}`} alt="" className="
-                h-40 text-center mb-5 mx-auto
-            "/>
-
-            <ul id="techList" className="
-                flex gap-1 flex-wrap mb-5 w-[90%] mx-auto items-center justify-center
-            ">
-                {techs.map((tech:String, index:React.Key)=>{
-                     return <ProjectsTechTag Key={index} text={`${tech}`}/>
-                    })
-                }
-            </ul>
-
-            <div className="
-                flex  flex-col justify-between h-48
-                opacity-70 hover:opacity-100
-                transition-all duration-300 
-            ">
-                <p className="
+            
+                <h2 className="
+                    text-lg text-center font-bold mb-8 text-blue-50 
                     
                 ">
-                    {text}
-                </p>
+                    {reposInfo.name}
+                </h2>
+
+                <img src={`${srcImg}`} alt="" className="
+                    h-40 text-center mb-5 mx-auto rounded-md
+                "/>
+
+                <ul id="techList" className="
+                    flex gap-1 flex-wrap mb-5 w-[90%] mx-auto items-center justify-center
+                ">
+                    {techs.map((tech:String, index:React.Key)=>{
+                        return <ProjectsTechTag Key={index} text={`${tech}`}/>
+                        })
+                    }
+                </ul>
 
                 <div className="
-                    flex justify-between
+                    flex  flex-col justify-between h-48
                 ">
-                    <Button 
-                        link={`${reposInfo.html_url}`}
-                        text=" Repositorio"
-                        icon={<BsGithub/>}
-                    />
-                    <Button 
-                        link={`${reposInfo.homepage}`}
-                        text=" Demo"
-                        icon={<BsLink45Deg/>}
-                    />
+                    <p>
+                        {text}
+                    </p>
+
+                    <div className="
+                        flex justify-between
+                    ">
+                        <Button 
+                            link={`${reposInfo.html_url}`}
+                            text=" Repositorio"
+                            icon={<BsGithub/>}
+                        />
+                        <Button 
+                            link={`${reposInfo.homepage}`}
+                            text=" Demo"
+                            icon={<BsLink45Deg/>}
+                        />
+                    </div>
                 </div>
-            </div>
         </div>
+        </span>
+
     )
 }
