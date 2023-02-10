@@ -1,11 +1,11 @@
-import AboultInfo from "./AboultInfo.tsx"
+import AboultInfo from "./AboultInfo";
 
 export default function AboultList(){
     return(
         <ul className="
             flex flex-col gap-3 mt-[3%]
         ">
-            <AboultInfo 
+            <AboultInfo
                 title="Aniversario"
                 text="28 Mar 2004"
             />

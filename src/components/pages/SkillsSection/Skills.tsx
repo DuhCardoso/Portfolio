@@ -1,5 +1,5 @@
-import SkillsBack from "../layout/SkillsBack";
-import SkillsFront from "../layout/SkillsFront";
+import SkillsFront from "./components/SkillsFront";
+import SkillsBack from "./components/SkillsBack";
 
 export default function Skills(){
     return(

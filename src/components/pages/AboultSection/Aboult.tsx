@@ -1,4 +1,4 @@
-import AboultList from "../layout/AboultList";
+import AboultList from "./components/AboultList";
 
 export default function Aboult(){
     return(

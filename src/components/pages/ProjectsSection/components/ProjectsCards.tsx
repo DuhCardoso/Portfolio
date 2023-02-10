@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { BsGithub, BsLink45Deg } from "react-icons/bs" 
 
-import Button from "./Button"
+import Button from "../../../layout/Button"
 import ProjectsTechTag from "./ProjectsTechTag"
 
 type projectsLinkTypes={

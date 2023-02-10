@@ -1,12 +1,12 @@
 
 import { useEffect } from 'react';
 import onScrollFunctions from './components/functions/onScrollFunctions';
+
 import Navbar from './components/layout/Navbar';
-import Aboult from './components/pages/Aboult';
-import Contact from './components/pages/Contact/Contact';
 import Home from './components/pages/Home';
-import Projects from './components/pages/Projects';
-import Skills from './components/pages/Skills';
+import Aboult from './components/pages/AboultSection/Aboult';
+import Projects from './components/pages/ProjectsSection/Projects';
+import Skills from './components/pages/SkillsSection/Skills';
 
 import "./styles/global.css"
 
@@ -35,7 +35,6 @@ export default function App() {
           <Aboult/>
           <Skills/>
           <Projects/>
-          <Contact/>
         </main>
 
         <textarea className="text-black w-[80%] h-30" />
