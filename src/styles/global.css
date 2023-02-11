@@ -14,4 +14,8 @@
                 after:block after:bottom-[-2px] after:left-[-2px] 
                 after:relative hover:after:w-[105%]
     }
+    .hoverContactBorderSon:hover div{
+        @apply border-sky-500 text-sky-500  
+    }
 }
+

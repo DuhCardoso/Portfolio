@@ -7,6 +7,7 @@ import Home from './components/pages/Home';
 import Aboult from './components/pages/AboultSection/Aboult';
 import Projects from './components/pages/ProjectsSection/Projects';
 import Skills from './components/pages/SkillsSection/Skills';
+import Contact from './components/pages/ContactSection/Contact';
 
 import "./styles/global.css"
 
@@ -35,6 +36,7 @@ export default function App() {
           <Aboult/>
           <Skills/>
           <Projects/>
+          <Contact/>
         </main>
 
         <textarea className="text-black w-[80%] h-30" />
