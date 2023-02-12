@@ -4,7 +4,7 @@
 
 @layer components{
     .activeNav{
-        @apply  opacity-100
+        @apply  lg:opacity-100
                 after:content-[''] after:bg-slate-50 after:w-[105%] after:h-[2px]
                 after:block after:bottom-[-2px] after:left-[-2px] after:relative
     }
