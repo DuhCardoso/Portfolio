@@ -24,7 +24,7 @@ export default function Contact(){
     })
     return(
         <div id="Contact" className="
-            py-[5rem]  px-[5%] h-screen 
+            py-[5rem]  px-[5%] mb-8 
         ">
             <h2 className="
                 text-3xl font-bold w-max text-blue-50 mb-12
