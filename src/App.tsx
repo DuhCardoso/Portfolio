@@ -16,6 +16,7 @@ export default function App() {
     function watchScroll(){
       window.addEventListener("scroll", onScrollFunctions)
     }
+    
     watchScroll()
     return () => {
       window.removeEventListener("scroll", onScrollFunctions);
@@ -24,8 +25,7 @@ export default function App() {
 
   return (
     <div  className="
-      text-slate-50 w-[90%] m-auto
-      lg:w-[1024px]
+      text-slate-50 scroll-px-3
     ">
         <header>
           <Navbar/>

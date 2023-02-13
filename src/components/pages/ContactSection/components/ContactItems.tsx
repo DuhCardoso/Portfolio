@@ -7,7 +7,7 @@ type ContactItemsType={
 
 export default function ContactItems({text, href, icon, oneClassName}:ContactItemsType){
     return(
-        <a href={`${href}`} className={`
+        <a href={`${href}`} target="_blank" className={`
             w-[22.7rem] pr-4
             bg-blue-1000  rounded-xl 
             flex justify-start items-center gap-4
@@ -16,7 +16,7 @@ export default function ContactItems({text, href, icon, oneClassName}:ContactIte
         `}>
             <div className="
                 text-2xl p-4 text-slate-50 bg-bgcolor-dark rounded-xl 
-                border-[2px] border-blue-1000 
+                border-[0.125rem] border-blue-1000 
                 transition-all duration-300
             ">
                 {icon}

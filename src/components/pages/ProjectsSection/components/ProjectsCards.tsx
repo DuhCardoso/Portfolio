@@ -41,9 +41,9 @@ export default function ProjectsCards({reposSrc, srcImg, text, techs}:projectsLi
         bg-bgcolor-dark rounded-xl
             ">
         <div className="
-            py-8 px-4 w-[280px] min-h-[450px] 
+            py-8 px-4 w-[17.5rem] min-h-[28.125rem] 
 
-            opacity-70 hover:opacity-100
+            lg:opacity-70 lg:hover:opacity-100
             transition-all duration-300 
         ">
             

@@ -24,24 +24,25 @@ export default function Contact(){
     })
     return(
         <div id="Contact" className="
-            py-[5rem] mx-[-5.52%] px-[5%] 
+            py-[5rem]  px-[5%] h-screen 
         ">
             <h2 className="
                 text-3xl font-bold w-max text-blue-50 mb-12
                 
-                after:content-[''] after:bg-sky-500 after:w-[45%] after:h-[4px] after:rounded-lg after:block after:-bottom-[6px] after:left-[-2px] after:relative after:ml-1
+                after:content-[''] after:bg-sky-500 after:w-[45%] after:h-[0.25rem] after:rounded-lg after:block after:-bottom-[0.375rem] after:-left-[0.125rem] after:relative after:ml-1
             ">
                 Contatos
             </h2>
             <div className="
-                w-[80%] mx-auto
-                sm:w-max
+                w-max mx-auto mt-[15%]
+                
                 md:grid md:grid-cols-2
+                lg:mt-[10%]
             ">
                 { widthBiggerThen && <img src="/chat.svg" className="h-max my-auto"/>
                 }
                 <div className="
-                    flex flex-col gap-4
+                    flex flex-col gap-4 
                 ">
                     <ContactItems 
                         text="DuhCardoso.contato@gmail.com" 

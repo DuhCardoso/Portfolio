@@ -2,7 +2,7 @@ import AboultList from "./components/AboultList";
 
 export default function Aboult(){
     return(
-        <div id="Aboult" className="bg-blue-1000 py-[5rem]  mx-[-5.52%] px-[5%] " >
+        <div id="Aboult" className="bg-blue-1000 py-[5rem] px-[5%] " >
             <h2 className="
                 text-3xl font-bold w-max mb-12 text-blue-50
                 
@@ -33,7 +33,9 @@ export default function Aboult(){
                 </p>
 
                 <div className="
-                    flex mb-12 justify-center gap-5 
+                    flex flex-col mb-12 
+                    sm:flex-row sm:gap-5 
+                    sm:justify-center
                     lg:gap-16 lg:justify-start
                 ">
                     <img src="/aboultProfile.png" className="

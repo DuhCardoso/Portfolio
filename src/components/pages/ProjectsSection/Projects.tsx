@@ -4,7 +4,7 @@ import ProjectsCards from "./components/ProjectsCards";
 export default function Projects(){
     return(
         <div id="Project" className="
-            bg-blue-1000 py-[5rem]  mx-[-5.52%] px-[5%] 
+            bg-blue-1000 py-[5rem]  px-[5%] 
             
         ">
             <h2 className="

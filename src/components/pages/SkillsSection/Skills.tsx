@@ -4,7 +4,7 @@ import SkillsBack from "./components/SkillsBack";
 export default function Skills(){
     return(
         <div id="Skill" className="
-            py-[5rem] mx-[-5.52%] px-[5%] 
+            py-[5rem] px-[5%] 
         ">
             <h2 className="
                 text-3xl font-bold w-max text-blue-50 mb-12
