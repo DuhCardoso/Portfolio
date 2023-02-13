@@ -77,7 +77,7 @@ export default function NavbarContentList({mobileOnChaing}:navbarContentListType
                 }
             </ul>
 
-            <ul className="flex gap-8 text-3xl bottom-3 py-2 lg:text-xl lg:gap-3">
+            <ul id="NavSocialLinks" className=" flex gap-8 text-3xl bottom-3 py-2 lg:text-xl lg:gap-3  ">
                 <li className="transition-opacity opacity-90 lg:opacity-70 hover:opacity-100"
                 >
                     <a href="https://github.com/DuhCardoso" target="_blank"><BsGithub/></a>

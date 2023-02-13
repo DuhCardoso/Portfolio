@@ -10,6 +10,7 @@ import Skills from './components/pages/SkillsSection/Skills';
 import Contact from './components/pages/ContactSection/Contact';
 
 import "./styles/global.css"
+import Footer from './components/layout/Footer';
 
 export default function App() {
   useEffect(()=>{
@@ -38,8 +39,9 @@ export default function App() {
           <Projects/>
           <Contact/>
         </main>
+        {/* <textarea className="text-black w-[80%] h-30" /> */}
 
-        <textarea className="text-black w-[80%] h-30" />
+        <Footer/>
     </div>
   )
 }

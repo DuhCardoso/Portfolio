@@ -1,3 +1,4 @@
+import DisableNavSocialLinks from "./DisableNavSocialLinks"
 import activateNavItens from "./functionNavItemsScroll"
 
 window.addEventListener("scroll", onScrollFunctions)
@@ -10,6 +11,7 @@ export default function onScrollFunctions(){
         activateNavItens(document.getElementById("Skill") as HTMLElement)
         activateNavItens(document.getElementById("Project") as HTMLElement)
         activateNavItens(document.getElementById("Contact") as HTMLElement)
+        DisableNavSocialLinks()
     }
 
 }
