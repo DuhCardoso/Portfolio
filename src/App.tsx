@@ -13,11 +13,11 @@ import "./styles/global.css"
 import Footer from './components/layout/Footer';
 
 export default function App() {
-  useEffect(()=>{
-    function watchScroll(){
+  useEffect(() => {
+    function watchScroll() {
       window.addEventListener("scroll", onScrollFunctions)
     }
-    
+
     watchScroll()
     return () => {
       window.removeEventListener("scroll", onScrollFunctions);
@@ -25,23 +25,24 @@ export default function App() {
   })
 
   return (
-    <div  className="
+    <div className="
       text-slate-50 scroll-px-3
     ">
-        <header>
-          <Navbar/>
-          <Home/>
-        </header>
+      <header>
+        <Navbar />
+        <Home />
+      </header>
 
-        <main>
-          <Aboult/>
-          <Skills/>
-          <Projects/>
-          <Contact/>
-        </main>
-        {/* <textarea className="text-black w-[80%] h-30" /> */}
+      <main>
+        <Aboult />
+        <Skills />
+        <Projects />
+        <Contact />
+      </main>
 
-        <Footer/>
+      <Footer />
     </div>
   )
 }
+
+{/* <textarea className="text-black w-[80%] h-30" /> */}

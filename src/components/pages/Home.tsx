@@ -1,17 +1,17 @@
 import { Typewriter } from "react-simple-typewriter"
-import {HiOutlineArrowDown} from "react-icons/hi"
+import { HiOutlineArrowDown } from "react-icons/hi"
 import { useEffect } from "react"
 
-export default function Home(){
-    function hiddenArrowAnimation(){
+export default function Home() {
+    function hiddenArrowAnimation() {
         const arrowAnimation = document.getElementById('arrowAnimation') as HTMLElement
-        if(window.scrollY > 200){
+        if (window.scrollY > 200) {
             arrowAnimation.classList.add("hidden")
-        }else{
+        } else {
             arrowAnimation.classList.remove("hidden")
         }
     }
-    useEffect(()=>{
+    useEffect(() => {
         window.addEventListener("scroll", hiddenArrowAnimation)
     })
     return (
@@ -23,21 +23,21 @@ export default function Home(){
                     underline decoration-sky-500 underline-offset-[.75rem] decoration-3 
 
                 ">
-                    <Typewriter 
+                    <Typewriter
                         words={["Eduardo Cardoso"]}
                         cursor
                         cursorBlinking
                         typeSpeed={200}
 
-                        />
+                    />
                 </h1>
-                
+
                 <h2>sou Desenvolvedor Front-end</h2>
             </div>
             <div id="arrowAnimation" className="
                  text-5xl mx-auto w-max relative top-[35%]
             ">
-                <HiOutlineArrowDown className="animate-opacityArrow "/>
+                <HiOutlineArrowDown className="animate-opacityArrow " />
             </div>
         </div>
     )

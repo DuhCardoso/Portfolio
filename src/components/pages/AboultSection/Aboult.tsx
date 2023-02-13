@@ -1,7 +1,7 @@
 import AboultList from "./components/AboultList";
 
-export default function Aboult(){
-    return(
+export default function Aboult() {
+    return (
         <div id="Aboult" className="bg-blue-1000 py-[5rem] px-[5%] " >
             <h2 className="
                 text-3xl font-bold w-max mb-12 text-blue-50
@@ -18,7 +18,7 @@ export default function Aboult(){
             </p>
 
             <div id="AboultProfile">
-                
+
 
                 <h3 className="
                     font-semibold text-xl mb-2

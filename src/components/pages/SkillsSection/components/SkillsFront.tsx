@@ -1,8 +1,8 @@
 import SkillsItens from "./SkillsItens";
 
 
-export default function SkillsFront(){
-    return(
+export default function SkillsFront() {
+    return (
         <div id="FrontEnd" className="
             text-center w-[90%] m-auto rounded-3xl p-8
             border-[1px] border-blue-1000 bg-blue-1000
@@ -20,13 +20,13 @@ export default function SkillsFront(){
                 grid grid-cols-2 text-start m-auto w-[85%] gap-y-5
                 lg:w-[70%] 
             ">
-                <SkillsItens stack="HTML5" level="Experiente"/>
-                <SkillsItens stack="CSS3" level="Experiente"/>
-                <SkillsItens stack="JavaScript" level="Avançado"/>
-                <SkillsItens stack="React" level="Avançado"/>
-                <SkillsItens stack="Tailwindcss" level="Avançado"/>
-                <SkillsItens stack="TypeScript" level="Basico"/>
-                <SkillsItens stack="Styled-Components" level="Estudando"/>
+                <SkillsItens stack="HTML5" level="Experiente" />
+                <SkillsItens stack="CSS3" level="Experiente" />
+                <SkillsItens stack="JavaScript" level="Avançado" />
+                <SkillsItens stack="React" level="Avançado" />
+                <SkillsItens stack="Tailwindcss" level="Avançado" />
+                <SkillsItens stack="TypeScript" level="Basico" />
+                <SkillsItens stack="Styled-Components" level="Estudando" />
             </ul>
         </div>
     )

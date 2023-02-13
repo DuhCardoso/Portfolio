@@ -1,8 +1,8 @@
 import SkillsItens from "./SkillsItens";
 
 
-export default function SkillsBack(){
-    return(
+export default function SkillsBack() {
+    return (
         <div id="FrontEnd" className="
             text-center w-[90%] m-auto rounded-3xl p-8
             border-[1px] border-blue-1000 bg-blue-1000
@@ -20,11 +20,11 @@ export default function SkillsBack(){
                 grid grid-cols-2 text-start m-auto w-[85%] gap-y-5
                 lg:w-[70%] 
             ">
-                <SkillsItens stack="SQLite" level="Intermediário"/>
-                <SkillsItens stack="Node.JS" level="Intermediário"/>
-                <SkillsItens stack="MySQL" level="Basico"/>
-                <SkillsItens stack="Prisma" level="Basico"/>
-                <SkillsItens stack="Elixir" level="Interesse"/>
+                <SkillsItens stack="SQLite" level="Intermediário" />
+                <SkillsItens stack="Node.JS" level="Intermediário" />
+                <SkillsItens stack="MySQL" level="Basico" />
+                <SkillsItens stack="Prisma" level="Basico" />
+                <SkillsItens stack="Elixir" level="Interesse" />
             </ul>
         </div>
     )

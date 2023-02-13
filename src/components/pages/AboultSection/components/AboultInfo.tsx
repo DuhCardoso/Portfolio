@@ -1,13 +1,13 @@
-import {RiArrowRightSLine} from "react-icons/ri";
+import { RiArrowRightSLine } from "react-icons/ri";
 
-type AboultInfoTypes={
+type AboultInfoTypes = {
     title: String,
     text: String
 }
 
 
-export default function AboultInfo({title, text}:AboultInfoTypes){
-    return(
+export default function AboultInfo({ title, text }: AboultInfoTypes) {
+    return (
         <li className="
             flex flex-start gap-2 justify-items-center items-center 
         ">

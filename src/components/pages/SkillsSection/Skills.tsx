@@ -1,8 +1,8 @@
 import SkillsFront from "./components/SkillsFront";
 import SkillsBack from "./components/SkillsBack";
 
-export default function Skills(){
-    return(
+export default function Skills() {
+    return (
         <div id="Skill" className="
             py-[5rem] px-[5%] 
         ">
@@ -13,7 +13,7 @@ export default function Skills(){
             ">
                 Conhecimentos
             </h2>
-            
+
 
             <div className="
                 grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch
@@ -21,7 +21,7 @@ export default function Skills(){
                 <SkillsFront />
                 <SkillsBack />
             </div>
-            
+
 
         </div>
     )

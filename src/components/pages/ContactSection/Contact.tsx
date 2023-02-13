@@ -1,28 +1,28 @@
 import { useEffect, useState } from "react";
-import {AiOutlineMail} from "react-icons/ai" 
+import { AiOutlineMail } from "react-icons/ai"
 import { BsLinkedin, BsWhatsapp } from "react-icons/bs";
 import ContactItems from "./components/ContactItems";
 
 
-export default function Contact(){
-    const [widthBiggerThen, setWidthBiggerThen]= useState(false)
-    useEffect(()=>{
-        window.addEventListener("load",()=>{
-            if(window.innerWidth>=768){
+export default function Contact() {
+    const [widthBiggerThen, setWidthBiggerThen] = useState(false)
+    useEffect(() => {
+        window.addEventListener("load", () => {
+            if (window.innerWidth >= 768) {
                 setWidthBiggerThen(true)
-            }else{
+            } else {
                 setWidthBiggerThen(false)
             }
         })
-        window.addEventListener("resize",()=>{
-            if(window.innerWidth>=768){
+        window.addEventListener("resize", () => {
+            if (window.innerWidth >= 768) {
                 setWidthBiggerThen(true)
-            }else{
+            } else {
                 setWidthBiggerThen(false)
             }
-        })    
+        })
     })
-    return(
+    return (
         <div id="Contact" className="
             py-[5rem]  px-[5%] mb-8 
         ">
@@ -39,26 +39,26 @@ export default function Contact(){
                 md:grid md:grid-cols-2
                 lg:mt-[10%]
             ">
-                { widthBiggerThen && <img src="/chat.svg" className="h-max my-auto"/>
+                {widthBiggerThen && <img src="/chat.svg" className="h-max my-auto" />
                 }
                 <div className="
                     flex flex-col gap-4 
                 ">
-                    <ContactItems 
-                        text="DuhCardoso.contato@gmail.com" 
-                        icon={<AiOutlineMail/>} 
-                        href="#Contact" 
+                    <ContactItems
+                        text="DuhCardoso.contato@gmail.com"
+                        icon={<AiOutlineMail />}
+                        href="#Contact"
                         oneClassName="cursor-default"
                     />
-                    <ContactItems 
-                        text="linkedin.com/in/DuhCardoso" 
-                        icon={<BsLinkedin/>} 
-                        href="https://www.linkedin.com/in/DuhCardoso/" 
+                    <ContactItems
+                        text="linkedin.com/in/DuhCardoso"
+                        icon={<BsLinkedin />}
+                        href="https://www.linkedin.com/in/DuhCardoso/"
                     />
-                    <ContactItems 
-                        text="+55 (12) 99649-8270" 
-                        icon={<BsWhatsapp/>} 
-                        href="https://wa.me/5512996498270" 
+                    <ContactItems
+                        text="+55 (12) 99649-8270"
+                        icon={<BsWhatsapp />}
+                        href="https://wa.me/5512996498270"
                     />
                 </div>
             </div>

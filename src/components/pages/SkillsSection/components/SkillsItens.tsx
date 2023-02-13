@@ -1,11 +1,11 @@
-import {RiArrowRightSLine} from "react-icons/ri";
+import { RiArrowRightSLine } from "react-icons/ri";
 
-type SkillsItensType={
-    stack:String,
-    level:String
+type SkillsItensType = {
+    stack: String,
+    level: String
 }
 
-export default function SkillsItens({stack, level}:SkillsItensType){
+export default function SkillsItens({ stack, level }: SkillsItensType) {
     return (
         <li className="
             w-max flex items-start gap-1 mb-6

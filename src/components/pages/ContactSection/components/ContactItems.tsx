@@ -1,12 +1,12 @@
-type ContactItemsType={
+type ContactItemsType = {
     text: String
     href: String
-    icon: any 
+    icon: any
     oneClassName?: String
 }
 
-export default function ContactItems({text, href, icon, oneClassName}:ContactItemsType){
-    return(
+export default function ContactItems({ text, href, icon, oneClassName }: ContactItemsType) {
+    return (
         <a href={`${href}`} target="_blank" className={`
             w-[22.7rem] pr-4
             bg-blue-1000  rounded-xl 
