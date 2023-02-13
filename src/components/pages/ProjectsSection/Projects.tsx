@@ -39,23 +39,15 @@ export default function Projects(){
                 <ProjectsCards 
                     reposSrc="https://api.github.com/repos/DuhCardoso/RocketPay" 
                     srcImg="/RocketPay.png" 
-                    techs={["React.js", "CSS", "iMask", "Node"]}
+                    techs={["HTML", "CSS", "iMask", "Node"]}
                     text="
                         O Rocketpay é um componente que simula o formulário de preenchimento de cartão de crédito, onde é possível adicionar máscara aos inputs e atualizar elementos HTML via DOM.
                     "
                 />
-                {/* <ProjectsCards 
-                    reposSrc="https://api.github.com/repos/DuhCardoso/DoctorCary" 
-                    srcImg="" 
-                    techs={["React.js", "TailwindCSS"]}
-                    text="
-                        NLW Return - Rocketseat
-                    "
-                /> */}
                 <ProjectsCards 
                     reposSrc="https://api.github.com/repos/DuhCardoso/RocketCoffee" 
                     srcImg="/RocketCoffee.png" 
-                    techs={["CSS", "HTML"]}
+                    techs={["HTML", "CSS"]}
                     text="
                         Menu virtual de uma cafeteria.
                     "
@@ -63,7 +55,7 @@ export default function Projects(){
                 <ProjectsCards 
                     reposSrc="https://api.github.com/repos/DuhCardoso/Leitor-de-Destino" 
                     srcImg="/LeitorDeDistino.png" 
-                    techs={["CSS", "HTML", "JavaScript"]}
+                    techs={["HTML", "CSS", "JavaScript"]}
                     text="
                         Faça uma pergunta e descubra o seu destino! Gerada de um array de frases e passado por meio da DOM. 
                     "
@@ -74,6 +66,14 @@ export default function Projects(){
                     techs={["React.js", "CSS"]}
                     text="
                         Uma aplicação que envia um nome e salva o horário em que o nome foi enviado, criando um componente na tela, assim criando uma lista.
+                    "
+                />
+                <ProjectsCards 
+                    reposSrc="https://api.github.com/repos/DuhCardoso/DoctorCary" 
+                    srcImg="/DoctorCary.png" 
+                    techs={["HTML", "CSS", "JavaScript"]}
+                    text="
+                        NLW Return - Rocketseat
                     "
                 />
                 {/* <ProjectsCards 
