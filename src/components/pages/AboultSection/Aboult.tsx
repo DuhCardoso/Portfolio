@@ -14,7 +14,7 @@ export default function Aboult() {
             <p className="
                 opacity-90 mb-7
             ">
-                Eu sou Eduardo Cardoso, também conhecido como Naomeli. Sou desenvolvedor web, sou muito dedicado a minha área de atuação. Atualmente estou em dedicando a melhor meus conhecimentos de Front & Back-end com muito empenho e paixão.
+                Eu sou Eduardo Cardoso, também conhecido como DuhCardoso. Sou desenvolvedor web, sou muito dedicado a minha área de atuação. Atualmente estou em dedicando a melhor meus conhecimentos de Front & Back-end com muito empenho e paixão.
             </p>
 
             <div id="AboultProfile">
