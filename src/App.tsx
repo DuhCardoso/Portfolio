@@ -29,10 +29,10 @@ export default function App() {
     ">
         <header>
           <Navbar/>
+          <Home/>
         </header>
 
         <main>
-          <Home/>
           <Aboult/>
           <Skills/>
           <Projects/>
