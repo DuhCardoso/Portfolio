@@ -1,3 +1,4 @@
+import { BsLink45Deg } from "react-icons/bs";
 import AboultList from "./components/AboultList";
 
 export default function Aboult() {
@@ -14,16 +15,16 @@ export default function Aboult() {
             <p className="
                 opacity-90 mb-7 w-[95%] mx-auto lg:w-[64rem]
             ">
-                Eu sou Eduardo Cardoso, também conhecido como DuhCardoso. Sou desenvolvedor web, sou muito dedicado a minha área de atuação. Atualmente estou em dedicando a melhor meus conhecimentos de Front & Back-end com muito empenho e paixão.
+                Eu sou Eduardo Cardoso, também conhecido como DuhCardoso. Sou desenvolvedor web, sou muito dedicado a minha área de atuação. Atualmente estou em dedicando a melhor meus conhecimentos de Front &  Back-end com muito empenho e paixão.
             </p>
 
             <div id="AboultProfile">
 
 
                 <h3 className="
-                    font-semibold text-xl mb-2 w-[90%] mx-auto lg:w-[60rem] 
+                    font-semibold text-xl mb-2 w-[90%] mx-auto lg:w-[60rem] underline 
                 ">
-                    Web Developer.
+                   <a href="/CV-Eduardo_Cardoso.pdf" target="_blank" className="flex items-center" ><BsLink45Deg /> Web Developer. </a>
                 </h3>
 
                 <p className="
@@ -40,7 +41,7 @@ export default function Aboult() {
                 ">
                     <img src="/aboultProfile.png" className="
                         w-[200px] rounded-lg   object-contain 
-                    "/>
+                    " alt=""/>
 
                     <AboultList />
                 </div>
